@@ -70,3 +70,15 @@ img{
     height: 40px;
     bottom: 100px;
 }
+
+.social a img {
+    width: 50px;  /* Adjust size as needed */
+    height: 50px;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    border-radius: 30%; /* Make the icon rounded */
+}
+
+.social a:hover img {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
